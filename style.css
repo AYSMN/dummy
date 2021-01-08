@@ -1,0 +1,87 @@
+*{
+	top:0px;
+	left:0px;
+	box-sizing: border-box;
+}
+
+h1{
+	font-weight: bold;
+	width:45%;
+	background-image: linear-gradient(75deg, #FFFC00, #FFEA00);
+	color:black;
+	font-size: 18px;
+	clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+	border: 2px  white solid;
+	font-style: italic;
+	font-family: verdana;
+}
+
+body{
+	
+	background-color: black;
+	color:white;
+}
+.logo{
+	width:360px;
+	height: 79px;
+	background-image: url("images/bann.jpg"); 
+	text-align: center;
+	margin-bottom: 4px;
+	font-family: impact;
+}
+h2{
+	
+}
+
+
+.container
+{
+  width:100%;
+  padding-left: white 30px;
+  overflow: hidden;
+
+}
+#sliderbox
+{
+	position:relative;
+	width: 400%;
+	animation-name: anime;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+
+}
+#sliderbox img{
+	float: left;
+
+}
+@keyframes anime{
+
+	0%{
+		left:25px;
+	}
+
+	20%{
+		left:25px;
+	}
+
+	30%{
+		left:-275px;
+	}
+	50%{
+		left:-275px;
+	}
+	60%{
+		left:-575px;
+	}
+	80%{
+		left:-575px;
+	}
+	90%{
+		left:-875px;
+	}
+	100%{
+		left:-875px;
+	}
+	
+}
